@@ -1,0 +1,233 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    max-width: 1440px;
+    margin:0 auto;
+}
+.header{
+    max-width: 1170px;
+}
+.page-header{    
+    margin: 60px auto 47px;
+}
+.section-image{
+    height: 464px;
+    margin: 46px auto 0;
+    background-image: url('img/image1.jpg');
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+}
+.section-image img{
+    margin-top: 46px;
+}
+.p-image{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+}
+h2{    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 32px 0 139px;
+}
+h1{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 1px;
+    color: black;
+    text-align: center;
+    margin: 0 auto 14px;
+}
+.main-menu{
+    display: flex;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.main-menu ul {
+    display: flex;
+    margin-top: 32px;
+    padding: 0;
+    list-style: none;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.main-menu li {
+    display: inline-block;
+   /* margin-right: 47px;*/
+}
+.main-menu li:last-child {
+    margin-right: 0;
+}
+.main-menu a{    
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 2px;
+    color: black;
+    text-decoration: none;
+}
+h3{
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 2px;    
+    color: #000000;
+    margin: 44px 0 20px;
+}
+h4{
+    font-family: 'Playfair Display', serif;
+    font-weight: 900;
+    font-size: 23px;
+    line-height: 31px;
+    color: #000000;
+    text-align: left;
+}
+.card h4:hover{
+    color: #FF7931;
+}
+.preview, .card, .promo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.promo{
+      background: #F7F7F7;
+      height: 556px;
+      overflow: hidden;
+      position: relative;
+}
+.circle-promo{
+      position: absolute;
+      background-color: #FFFFFF;
+      border-radius: 50%;
+      top: -75px;
+      left: calc(50%-353px);
+      width: 707px;
+      height: 632px;
+      padding-top: 75px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+}
+.h3-promo{
+      margin-top: 33px;
+      margin-bottom: 11px;
+}
+.promo-card{
+    margin: 24px auto 0;
+    width: 380px;
+    text-align: center;
+    position: relative;  
+}
+.promo-card:not(:last-of-type)::after{
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 1px;
+    left: 140px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+.promo-card h4{
+    text-align: center;
+    margin: 0;
+}
+p{
+    font-size: 14px;
+    line-height: 21px;
+    margin: 10px 0 0 0;
+}
+.promo-card p{
+    height: 60px;
+}
+.cards{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 51px;
+}
+.card{
+      width: 370px;
+      margin-right: 29px;
+      align-items: flex-start;    
+}
+
+.card:last-child{
+        margin-right: 0;
+}
+.button {
+    display: block;
+    padding: 17px 60px 15px 30px;
+    background-color: #FF7931;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 25px;
+    position: relative;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+}  
+.button::after{
+    position: absolute;
+    content: "";
+    background-image: url("img/Arrow forward.svg");
+    width: 24px;
+    height: 25px;
+    left: 117px;
+    top: 11px;
+}
+h5{
+    font-size: 28px;
+    line-height: 37px;
+    margin: 0;
+}
+footer{
+    max-width: 1440px;
+    height: 269px;
+    margin: 30px auto 0;
+    padding-top: 26px;
+    background-color: #575757;
+    color: #FFFFFF;
+    text-align: center;
+}
+footer .main-menu a{
+    color: #FFFFFF;
+}
+footer .main-menu ul{
+    height: 64px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+.facebook_icon, .inst_icon, .twitter_icon{
+    display: inline-block;
+    width: 47px;
+    height: 47px;
+    margin: 42px 14px 0 0;
+    background: url("img/sprites.png") no-repeat,
+                white;
+}
+.facebook_icon{
+	background-position: -90px 0px ;
+	
+}
+.inst_icon{
+	background-position: -47px 0px ;
+	
+}
+.twitter_icon{
+	background-position: 0px 0px ;
+	margin-right:0;
+}
